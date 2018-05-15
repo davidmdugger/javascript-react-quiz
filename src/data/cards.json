@@ -9,6 +9,11 @@
       "id": 2,
       "q": "How do you loop through an array of objects with an array as one of the properties?",
       "a": "use template literals, loop through the array of objects with a forEach, then display each item's property, and when you need to loop the the prop with an array, loop through with the map method and don't forget the join method at the end"
+    },
+    {
+      "id": 3,
+      "q": "What is React?",
+      "a": "One of the two or three current top frontend frameworks/libraries that breaks websites in to small pieces called components. In React, everything is a component and everything is JavaScript (with JSX). This allows for fewer bugs, more easier to maintain code, and super fast client-side rendering."
     }
   ]
 }
