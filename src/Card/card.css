@@ -1,0 +1,41 @@
+.card-container{
+  cursor: pointer;
+  height: 400px;
+  width: 400px;
+  perspective: 1000px;
+  position: relative;
+  margin: auto;
+  transition: linear;
+}
+
+.card{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  border: 1px solid #ccc;
+  transform-style: preserve-3d;
+  transition: all 500ms ease-in-out;
+}
+
+.card:hover{
+  transform: rotateY(180deg);
+  transition: all 500ms ease-in-out;
+}
+
+.card .card-front{
+  height: 400px;
+  width: 400px;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  /* text-align: center; */
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.card .card-back{
+  height: 400px;
+  width: 400px;
+  /* text-align: center; */
+  transform: rotateY(180deg);
+  background-color: rgba(255, 255, 255, 1);
+}

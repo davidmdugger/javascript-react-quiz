@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "q": "What is the difference between const and let?",
+      "a": "Use const when you will not reassign a variable, use let when you will need to reassign it."
+    },
+    {
+      "id": 2,
+      "q": "How do you loop through an array of objects with an array as one of the properties?",
+      "a": "use template literals, loop through the array of objects with a forEach, then display each item's property, and when you need to loop the the prop with an array, loop through with the map method and don't forget the join method at the end"
+    }
+  ]
+}

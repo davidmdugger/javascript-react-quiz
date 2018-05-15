@@ -1,0 +1,9 @@
+.new-card-button{
+  width: 190px;
+  height: 75px;
+  background-color: #358cb4;
+  border: 1px solid #343434;
+  color: #fff;
+  margin-top: 25px;
+  font-size: 25px;
+}
